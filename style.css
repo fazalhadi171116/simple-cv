@@ -1,0 +1,72 @@
+  *{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+              
+            }
+            body{
+                background-color: black;
+            }
+            .main-section{
+               
+                height: 820px;
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-top: 20px;
+                margin-bottom: 100px;
+                display:flex;
+            }
+            .left-section{
+                width: 70%;
+                height: 820px;
+                background-color:#EEEDF3;
+            }
+            .left-content{
+              
+                margin-left:10%;
+                margin-right:10% ;
+                padding: 20px;
+                line-height: 30px;
+            }
+            .left-content h1{
+                font-size: 35px;
+            }
+            .work-content{
+                display: flex;
+                justify-content: space-around;
+            }
+            .workleft-section{
+                width: 20%;
+            }
+            .workright-section{
+                width: 75%;
+            }
+            .hr-style{
+                border-top: 3px solid #014C83;
+            }
+              /*--------------Right section Css------------------------------*/
+            .right-section{
+                width: 30%;
+                height: 820px;
+                background-color: #014C83;
+                color:white;
+            }
+          
+            .right-section img{
+              margin-top: 35px;
+              margin-left: 100px;
+            }
+            .contact-section{
+                padding: 20px;
+            }
+            .icon-section{
+                display: flex;
+                justify-content: space-around;
+            }
+            .logo{
+                background-color:white;
+                height: 132px;
+                text-align: center;
+            }
+            .logo img{
+                margin-left: 5px;
